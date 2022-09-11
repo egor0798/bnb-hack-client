@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="550b54c8-aa73-404c-8a36-94ed286c9850" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SubscriptionsList/SubscriptionsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SubscriptionsList/SubscriptionsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Plan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Plan.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2EZmg9NykV2cCV350KPE79oceDj" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -47,7 +49,17 @@
       <recent name="C:\Users\egor\reps\bnb-hack-admin\src\components\App" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -61,6 +73,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662811588855</updated>
       <workItem from="1662811590067" duration="18111000" />
-      <workItem from="1662878091320" duration="5766000" />
+      <workItem from="1662878091320" duration="8991000" />
     </task>
     <servers />
   </component>

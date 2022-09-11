@@ -5,11 +5,13 @@ import { Button } from 'antd';
 
 const subs: ISubscriptionPlan[] = [
   {
+    title: 'Netflix 4k',
     price: 10,
     reccuring: true,
     reccuringInterval: 30,
   },
   {
+    title: 'Spotify premium',
     price: 110,
     reccuring: true,
     reccuringInterval: 60,
@@ -26,7 +28,7 @@ export const SubscriptionsList: React.FC = () => {
       {subs.map(item => (
         <div className="subs-list-item">
           <div className='info'>
-            <h3>Subcription name</h3>
+            <h3>{item.title}</h3>
             <div className="details">
               <div className="item-data">
                 <div>Price: </div>
