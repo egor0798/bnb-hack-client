@@ -1,0 +1,36 @@
+@import "styles/variables";
+
+.app {
+  text-align: center;
+  background-color: $main-bg;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    background: $header-bg;
+    color: $main-text-color;
+    &-user {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      > * {
+        margin: 0;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    height: calc(100% - 100px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

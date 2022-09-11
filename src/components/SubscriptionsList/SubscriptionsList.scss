@@ -1,0 +1,53 @@
+@import "styles/variables";
+
+.subs-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 15px;
+  padding: 20px;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: $main-text-color;
+  }
+
+  &-item {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: $main-text-color;
+    background-color: $header-bg;
+    border: 2px solid $accent-color;
+    border-radius: 12px;
+    padding: 20px;
+    .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      .details {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+    }
+    .item-data {
+      display: flex;
+      gap: 6px;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .delete-button {
+      margin-left: auto;
+    }
+  }
+}
